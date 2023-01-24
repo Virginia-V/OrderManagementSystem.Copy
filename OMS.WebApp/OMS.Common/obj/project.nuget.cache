@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "txRVBzYYfwiTVtI8dzWdpVMnS8l0IEJMiktET0drugmtR3Gr9G4BZoQxthgl3VXc5hs79lIkcTJeZI8Fh+SjIA==",
+  "success": true,
+  "projectFilePath": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Common\\OMS.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Admin\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
+    "C:\\Users\\Admin\\.nuget\\packages\\microsoft.csharp\\4.7.0\\microsoft.csharp.4.7.0.nupkg.sha512"
+  ],
+  "logs": []
+}
