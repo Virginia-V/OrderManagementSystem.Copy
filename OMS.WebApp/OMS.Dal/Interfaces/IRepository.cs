@@ -4,7 +4,7 @@ using System.Linq.Expressions;
 
 namespace OMS.Dal.Interfaces
 {
-    public interface IRepository<TEntity> where TEntity : BaseEntity
+    public interface IRepository<TEntity> where TEntity : Entity
     {
         Task<IEnumerable<TEntity>> GetAllAsync();
         Task<KeyValuePair<int, IEnumerable<TEntity>>> GetPagedDataAsync(PagedRequest request);

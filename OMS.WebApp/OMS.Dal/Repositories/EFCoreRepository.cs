@@ -7,7 +7,7 @@ using System.Linq.Expressions;
 
 namespace OMS.Dal.Repositories
 {
-    public class EFCoreRepository<TEntity> : IRepository<TEntity> where TEntity : BaseEntity
+    public class EFCoreRepository<TEntity> : IRepository<TEntity> where TEntity : Entity
     {
         protected readonly OMSDbContext _context;
 

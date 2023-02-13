@@ -1,6 +1,6 @@
 ﻿namespace OMS.Domain
 {
-    public class Product : BaseEntity
+    public class Product : Entity
     {
         public string ProductSKU { get; set; }
         public string ProductName { get; set; }

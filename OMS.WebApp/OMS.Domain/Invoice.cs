@@ -2,7 +2,7 @@
 
 namespace OMS.Domain
 {
-    public class Invoice : BaseEntity
+    public class Invoice : Entity
     {
         public DateTime InvoiceDate { get; set; }
         public string InvoiceNumber { get; set; }

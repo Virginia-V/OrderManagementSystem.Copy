@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Bll\\OMS.Bll.csproj": {}
+    "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Bll\\OMS.Bll.csproj": {}
   },
   "projects": {
-    "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Bll\\OMS.Bll.csproj": {
+    "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Bll\\OMS.Bll.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Bll\\OMS.Bll.csproj",
+        "projectUniqueName": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Bll\\OMS.Bll.csproj",
         "projectName": "OMS.Bll",
-        "projectPath": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Bll\\OMS.Bll.csproj",
+        "projectPath": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Bll\\OMS.Bll.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Bll\\obj\\",
+        "outputPath": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Bll\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -32,14 +32,14 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Common\\OMS.Common.csproj": {
-                "projectPath": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Common\\OMS.Common.csproj"
+              "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Common\\OMS.Common.csproj": {
+                "projectPath": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Common\\OMS.Common.csproj"
               },
-              "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Dal\\OMS.Dal.csproj": {
-                "projectPath": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Dal\\OMS.Dal.csproj"
+              "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Dal\\OMS.Dal.csproj": {
+                "projectPath": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Dal\\OMS.Dal.csproj"
               },
-              "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj": {
-                "projectPath": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj"
+              "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj": {
+                "projectPath": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj"
               }
             }
           }
@@ -72,14 +72,14 @@
         }
       }
     },
-    "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Common\\OMS.Common.csproj": {
+    "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Common\\OMS.Common.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Common\\OMS.Common.csproj",
+        "projectUniqueName": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Common\\OMS.Common.csproj",
         "projectName": "OMS.Common",
-        "projectPath": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Common\\OMS.Common.csproj",
+        "projectPath": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Common\\OMS.Common.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Common\\obj\\",
+        "outputPath": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Common\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -100,8 +100,8 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj": {
-                "projectPath": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj"
+              "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj": {
+                "projectPath": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj"
               }
             }
           }
@@ -140,14 +140,14 @@
         }
       }
     },
-    "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Dal\\OMS.Dal.csproj": {
+    "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Dal\\OMS.Dal.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Dal\\OMS.Dal.csproj",
+        "projectUniqueName": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Dal\\OMS.Dal.csproj",
         "projectName": "OMS.Dal",
-        "projectPath": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Dal\\OMS.Dal.csproj",
+        "projectPath": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Dal\\OMS.Dal.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Dal\\obj\\",
+        "outputPath": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Dal\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -168,11 +168,11 @@
           "net6.0": {
             "targetAlias": "net6.0",
             "projectReferences": {
-              "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Common\\OMS.Common.csproj": {
-                "projectPath": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Common\\OMS.Common.csproj"
+              "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Common\\OMS.Common.csproj": {
+                "projectPath": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Common\\OMS.Common.csproj"
               },
-              "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj": {
-                "projectPath": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj"
+              "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj": {
+                "projectPath": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj"
               }
             }
           }
@@ -187,6 +187,14 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
+            "Microsoft.AspNetCore.Identity": {
+              "target": "Package",
+              "version": "[2.2.0, )"
+            },
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
             "Microsoft.EntityFrameworkCore": {
               "target": "Package",
               "version": "[6.0.13, )"
@@ -204,6 +212,10 @@
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
+              "target": "Package",
+              "version": "[6.0.13, )"
+            },
+            "Microsoft.Extensions.Identity.Stores": {
               "target": "Package",
               "version": "[6.0.13, )"
             },
@@ -235,14 +247,14 @@
         }
       }
     },
-    "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj": {
+    "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj",
+        "projectUniqueName": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj",
         "projectName": "OMS.Domain",
-        "projectPath": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj",
+        "projectPath": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Domain\\OMS.Domain.csproj",
         "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-        "outputPath": "D:\\OMS Amdaris Final App\\OMS.WebApp\\OMS.Domain\\obj\\",
+        "outputPath": "D:\\OMS Amdaris Final App - Copy\\OMS.WebApp\\OMS.Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
@@ -274,6 +286,12 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
+          "dependencies": {
+            "Microsoft.Extensions.Identity.Stores": {
+              "target": "Package",
+              "version": "[6.0.13, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

@@ -1,9 +1,11 @@
-﻿using OMS.Domain;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 using Microsoft.EntityFrameworkCore;
+using OMS.Domain;
 
 namespace OMS.Dal
 {
-    public class OMSDbContext : DbContext
+    public class OMSDbContext : IdentityDbContext<User, IdentityRole<int>, int>
     {
         public OMSDbContext(DbContextOptions<OMSDbContext> options) : base(options) { }
 

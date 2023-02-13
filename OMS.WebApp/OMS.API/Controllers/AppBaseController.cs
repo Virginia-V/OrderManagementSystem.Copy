@@ -7,7 +7,6 @@ using OMS.Common.Exceptions;
 
 namespace OMS.API.Controllers
 {
-    [Authorize]
     [ApiController]
     public abstract class AppBaseController : ControllerBase
     {

@@ -2,7 +2,7 @@
 
 namespace OMS.Domain
 {
-    public class Order : BaseEntity
+    public class Order : Entity
     {
         public DateTime OrderedAt { get; set; }
         public string PurchaseOrderNumber { get; set; }

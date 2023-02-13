@@ -1,6 +1,7 @@
 ﻿using OMS.Bll.Interfaces;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Localization;
+using Microsoft.AspNetCore.Authorization;
 
 namespace OMS.API.Controllers
 { 
@@ -17,6 +18,7 @@ namespace OMS.API.Controllers
         }
 
         [HttpGet]
+
         public Task<IActionResult> GetCategoriesAsync()
         {
             return HandleAsync(() => _categoryService.GetCategoriesAsync());

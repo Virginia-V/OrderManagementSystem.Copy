@@ -21,5 +21,9 @@
         public const string NoCustomerForDelete = "Customer you are trying to delete doesn't exist!";
         public const string NoInvoiceForDelete = "Invoice you are trying to delete doesn't exist!";
         public const string NoOrderForDelete = "Order you are trying to delete doesn't exist!";
+        public const string EmailInvalid = "Wrong Email Or Passowrd";
+        public const string EmailNotConfirmed = "Email is not confirmed - please - enter to your email and confirm";
+        public const string EmailExists = "User with this email exists";
+        public const string SocialAccount = "This Account is linked to Facebook or Google - you can't change its password. Please try to login using the right social platform";
     }
 }
