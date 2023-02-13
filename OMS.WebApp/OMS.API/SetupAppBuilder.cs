@@ -115,7 +115,8 @@ namespace OMS.API
 
         //private static void ConfigureAuthorization(IServiceCollection services)
         //{
-        //    services.AddAuthorization(o => {
+        //    services.AddAuthorization(o =>
+        //    {
         //        o.AddPolicy(PolicyName.ClubAdmin, policy => policy.RequireAuthenticatedUser().Requirements.Add(new ClubAdminRequirement()));
         //        o.AddPolicy(PolicyName.ClubMember, policy => policy.RequireAuthenticatedUser().Requirements.Add(new ClubMemberRequirement()));
         //        o.AddPolicy(PolicyName.CanExcludeDefaultPlayer, policy => policy.RequireAuthenticatedUser().Requirements.Add(new CanExcludeDefaultRequirement()));

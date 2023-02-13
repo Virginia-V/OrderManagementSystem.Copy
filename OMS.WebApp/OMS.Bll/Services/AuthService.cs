@@ -60,18 +60,18 @@ namespace OMS.Bll.Services
             return GetTokenFor(email, (user) => _userManager.GeneratePasswordResetTokenAsync(user));
         }
 
-        public Task<string> GetEmailConfirmationTokenAsync(string email)
-        {
-            return GetTokenFor(email, (user) => _userManager.GenerateEmailConfirmationTokenAsync(user));
-        }
-        public async Task<bool> ConfirmEmailAsync(string email, string token)
-        {
-            var user = await ValidateEmail(email);
-            if (user == null)
-                return false;
-            var result = await _userManager.ConfirmEmailAsync(user, Base64UrlEncoder.Decode(token));
-            return result.Succeeded;
-        }
+        //public Task<string> GetEmailConfirmationTokenAsync(string email)
+        //{
+        //    return GetTokenFor(email, (user) => _userManager.GenerateEmailConfirmationTokenAsync(user));
+        //}
+        //public async Task<bool> ConfirmEmailAsync(string email, string token)
+        //{
+        //    var user = await ValidateEmail(email);
+        //    if (user == null)
+        //        return false;
+        //    var result = await _userManager.ConfirmEmailAsync(user, Base64UrlEncoder.Decode(token));
+        //    return result.Succeeded;
+        //}
 
         public async Task<bool> ResetPasswordAsync(string email, string passwordToken, string newPassword)
         {

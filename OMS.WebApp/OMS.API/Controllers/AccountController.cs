@@ -15,13 +15,12 @@ namespace OMS.API.Controllers
     public class AccountController : AppBaseController
     {
         private readonly IAuthService _authService;
-        //private readonly ISocialAuthService _socialAuthService;
+        private readonly ISocialAuthService _socialAuthService;
         private const string UserInfoCookie = "UserInfo";
-        private const string EmailConfirmedCookie = "EmailConfirmed";
-        //private readonly IEmailSender _emailSender;
+        //private const string EmailConfirmedCookie = "EmailConfirmed";
         private readonly string _clientUrl;
         public AccountController(IAuthService authService,
-                                 //ISocialAuthService socialAuthService,
+                                 ISocialAuthService socialAuthService,
                                  IStringLocalizer<Resource> stringLocalizer,
                                  ILogger<AccountController> logger,
                                  //IEmailSender emailSender, 
@@ -29,29 +28,33 @@ namespace OMS.API.Controllers
             : base(logger, stringLocalizer)
         {
             _authService = authService;
-            //_socialAuthService = socialAuthService;
+            _socialAuthService = socialAuthService;
             //_emailSender = emailSender;
             _clientUrl = configuration["client"];
         }
 
-        //[HttpGet]
-        //[Route("login/external")]
-        //public Task<IActionResult> ExternalLogin([FromQuery] string accessToken, [FromQuery] SocialPlatform platform)
-        //{
-        //    return AuthotificateAsync(() => _socialAuthService.LoginAsync(accessToken, platform));
-        //}
-        //[HttpGet]
-        //[Route("register/external")]
-        //public Task<IActionResult> ExternalRegistration([FromQuery] string accessToken, [FromQuery] SocialPlatform platform)
-        //{
-        //    return AuthotificateAsync(() => _socialAuthService.RegisterAsync(accessToken, platform));
-        //}
+        [AllowAnonymous]
+        [HttpGet]
+        [Route("login/external")]
+        public Task<IActionResult> ExternalLogin([FromQuery] string accessToken, [FromQuery] SocialPlatform platform)
+        {
+            return AuthenticateAsync(() => _socialAuthService.LoginAsync(accessToken, platform));
+        }
+
+        [AllowAnonymous]
+        [HttpGet]
+        [Route("register/external")]
+        public Task<IActionResult> ExternalRegistration([FromQuery] string accessToken, [FromQuery] SocialPlatform platform)
+        {
+            return AuthenticateAsync(() => _socialAuthService.RegisterAsync(accessToken, platform));
+        }
 
         //[HttpPost]
         //[Route("requestreset/{email}")]
         //public Task<IActionResult> ResetPassword(string email)
         //{
-        //    return HandleAsync(() => {
+        //    return HandleAsync(() =>
+        //    {
         //        return SendAuthorizationEmail(
         //            () => _authService.GetResetPasswordTokenAsync(email),
         //            (token) => new ResetPasswordTemplate(email, new EmailWithLinkProps

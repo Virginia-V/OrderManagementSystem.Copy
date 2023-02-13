@@ -13,7 +13,7 @@
         public int Id { get; set; }
         public string Picture { get; set; }
         public string ContactInfo { get; set; }
-        public bool EmailConfirmed { get; set; }
+        //public bool EmailConfirmed { get; set; }
         public static AuthResultDto Failed(string error)
         {
             return new AuthResultDto
@@ -32,7 +32,7 @@
                 Id = infoDto.Id,
                 Picture = infoDto.Picture,
                 ContactInfo = infoDto.ContactInfo,
-                EmailConfirmed = infoDto.EmailConfirmed
+                //EmailConfirmed = infoDto.EmailConfirmed
             };
         }
     }

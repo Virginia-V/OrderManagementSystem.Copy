@@ -25,5 +25,7 @@
         public const string EmailNotConfirmed = "Email is not confirmed - please - enter to your email and confirm";
         public const string EmailExists = "User with this email exists";
         public const string SocialAccount = "This Account is linked to Facebook or Google - you can't change its password. Please try to login using the right social platform";
+        public const string SocialLoginError = "Could not register from social login, try later";
+        public const string UserDoesNotExists = "User does not exist";
     }
 }
